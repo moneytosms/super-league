@@ -25,7 +25,7 @@ The repository is organized into two independently deployable workspaces:
 | Directory | Stack | Platform |
 |-----------|-------|----------|
 | `frontend/` | React + Vite | Cloudflare Pages |
-| `backend/` | Node.js / Next.js (API & routing only) | Cloudflare |
+| `backend/` | Node.js / Next.js (API & routing only) | Vercel |
 
 Each workspace manages its own dependencies and development server.
 

@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
 
 export function handleError(error: any, context: string) {
-  // 1. SERVER LOGGING: Log the raw, highly-detailed error to the server console.
-  // Cloudflare captures `console.error` output in the deployment's logs.
+  // 1. SERVER LOGGING: Log the raw, highly-detailed error to the server console
+  // so it lands in the hosting platform's deployment logs.
   console.error(`[SERVER ERROR] - ${context}:`, error);
 
   // 2. DATA SANITIZATION: Strip sensitive data for the client
